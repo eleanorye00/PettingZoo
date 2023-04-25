@@ -6,10 +6,11 @@ from .random_demo import random_demo
 from .save_observation import save_observation
 from .wrappers import (
     AssertOutOfBoundsWrapper,
-    BaseParallelWrapper,
     BaseWrapper,
     CaptureStdoutWrapper,
     ClipOutOfBoundsWrapper,
     OrderEnforcingWrapper,
     TerminateIllegalWrapper,
 )
+
+## commented out BaseParallelWrapper,
